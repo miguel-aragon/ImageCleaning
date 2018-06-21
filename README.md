@@ -8,7 +8,7 @@ The method is quite slow and one need a large number of realizations to produce 
 
 ![picture](Images/CleanImage_B.gif)
 
-The method works surprisingly well. On the left the original images. Note the strong jpeg artifacts. On the right the cleaned images. Note the lack of jpeg artifacts, and the smoothing in the dark regions. The clean images were computed from a 2014 sampling ensemble. Each image took ~1 minute to compute. It is way too slow but the code is not optimized in any way.
+The method works surprisingly well. On the left the original images. Note the strong jpeg artifacts. On the right the cleaned images. There are no noticeable jpeg artifacts and the shot noise in the dark regions is smoothed. The clean images were computed from a 2048-realization ensemble. Each image took ~1 minute to compute. It is way too slow but the code is not optimized in any way.
 
 ![picture](Images/Gal_010.jpg) ![picture](Images/Gal_010.png)
 

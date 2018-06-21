@@ -6,6 +6,8 @@ This is a simple brute force anisotropic adaptive image filter. The results are 
 
 The method is quite slow and one need a large number of realizations to produce a high-quaity smooth result. Since the main advantage of the method is to clean shallow regions in the image I did a weighted image addition between the clean and image to add the bright regions in the original and the dark regions from the cleaned image. This is a dirty trick that works well for visualization purposes. For more serious applications one just need compute a much large ensemble.
 
+![picture](Images/CleanImage_B.gif)
+
 The method works surprisingly good. On the left the original images. Note the strong jpeg artifacts. On the right the cleaned images. Note the lack of jpeg artifacts, and the smoothing in the dark regions. The clean images were computed from a 2014 sampling ensemble. Each image took ~1 minute to compute. It is way too slow but the code is not optimized in any way.
 
 ![picture](Images/Gal_010.jpg) ![picture](Images/Gal_010.png)
